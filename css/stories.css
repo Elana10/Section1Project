@@ -1,0 +1,71 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  margin-left: 3rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-hostname {
+  margin-left: 3rem;
+  display: block;
+  
+}
+
+.story-delete {
+ margin-left: 3rem;
+}
+
+.story-author {
+  margin-left: 3rem;
+  color: green;
+}
+
+.story-user {
+  margin-left: 3rem;
+  display: block;
+  color: orange;
+}
+ 
+.favorite-toggle {
+  visibility:hidden;
+  font-size:30px;
+  cursor:pointer;
+}
+.favorite-toggle:before {
+content: "\2606";
+ position: absolute;
+ visibility: visible;
+}
+.favorite-toggle:checked:before {
+content: "\2605";
+ position: absolute;
+ visibility:visible;
+}
+
+/* http://jsfiddle.net/binaryben/aLx3m4k5/ */
